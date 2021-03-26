@@ -3,11 +3,11 @@
   Requires Arduino V1.0 and above
 
   Written by Jonathan Reynolds, Game & Wildlife Conservation Trust, Fordingbridge, SP6 1EF, UK
-  This code is being made publicly available for research and education purposes, but remains the Intellectual Property of the author.  
-  The above authorship must be acknowledged in full in any publication resulting from use of the code or parts or adaptations thereof.
-  Anyone wishing to use the code or parts or adaptations of it for commercial purposes is required to contact the author.  
+  This code is being made publicly available for research and education purposes under the GNU General Public License v3.0, 
+  a copy of which is included in the main folder of this GitHub repository.  
+  The above authorship must be acknowledged in full in any funding application or publication resulting from use of the code or parts or adaptations thereof.
     
-  See ############ for full details of the device hardware.	
+  See ############ for full details of the device hardware. [In preparation.  Details will be added when accepted for publication.] 	
 
   The code assumes the use of the Ardulog RTC (Hobbytronics Ltd) which combines the ATMega 328 microprocessor with an RTC and microSD card reader/writer.
   Hobbytronics example software expects to find a config.txt file on the SD card, with entries to determine BAUD rate and output file name.
