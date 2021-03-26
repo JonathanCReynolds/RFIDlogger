@@ -2,13 +2,27 @@
   RFID sensor and logger
   Requires Arduino V1.0 and above
 
-  Written by Jonathan Reynolds, Game & Wildlife Conservation Trust, Fordingbridge, SP6 1EF, UK
-  This code is being made publicly available for research and education purposes under the GNU General Public License v3.0, 
-  a copy of which is included in the main folder of this GitHub repository.  
-  The above authorship must be acknowledged in full in any funding application or publication resulting from use of the code or parts or adaptations thereof.
-    
+  Arduino code to run an autonomous battery-powered RFID reader/logger for wildlife research purposes  
   See ############ for full details of the device hardware. [In preparation.  Details will be added when accepted for publication.] 	
 
+  Copyright (C) 2021 Jonathan C Reynolds, Game & Wildlife Conservation Trust, Fordingbridge, SP6 1EF, UK
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    A copy of the GNU General Public License is filed along with this program.  
+    in the main folder of this GitHub repository at <https://github.com/JonathanCReynolds/RFIDlogger>.  
+    Alternatively, see <https://www.gnu.org/licenses/>.
+    
+  The above authorship must be acknowledged in full in any funding application or publication resulting from use of the code or parts or adaptations thereof.
+    
   The code assumes the use of the Ardulog RTC (Hobbytronics Ltd) which combines the ATMega 328 microprocessor with an RTC and microSD card reader/writer.
   Hobbytronics example software expects to find a config.txt file on the SD card, with entries to determine BAUD rate and output file name.
   I have fixed baud rate (9600) in the code and implemented a filenaming convention by date. Instead I use the config.txt file is now used to identify siteID and operatorID.
